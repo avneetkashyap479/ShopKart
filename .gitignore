@@ -1,0 +1,72 @@
+# ==========================================
+# ShopKart E-Commerce .gitignore
+# ==========================================
+
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production Build Outputs
+dist/
+build/
+client/dist/
+client/build/
+*.tsbuildinfo
+
+# Environment & Sensitive Files
+.env
+.env.*
+*.env
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+server/.env
+server/.env.local
+server/.env.development.local
+server/.env.production.local
+!.env.example
+!server/.env.example
+
+# Local Uploads & Static Assets
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs & Runtime Dumps
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor Specific Files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# Coverage / Testing
+coverage/
+.nyc_output/

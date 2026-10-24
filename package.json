@@ -1,0 +1,28 @@
+{
+  "name": "shopkart-ecommerce",
+  "version": "1.0.0",
+  "description": "ShopKart - Full-Stack E-Commerce Website Inspired by Flipkart",
+  "main": "server/server.js",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "ecommerce",
+    "flipkart-clone",
+    "shopkart",
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "ShopKart Team",
+  "license": "MIT"
+}
